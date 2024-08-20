@@ -18,7 +18,7 @@ WebscrapingAI is an AI-driven application designed to scrape web content, proces
 - **Conversational Model**: OpenAI GPT-3.5-turbo
 
 ## Installation
-To set up and use WebQueryBot, follow these steps:
+To set up and use WebscrapingAI, follow these steps:
 
 1. **Clone the repository** to your local machine:
 
@@ -40,7 +40,7 @@ To set up and use WebQueryBot, follow these steps:
     ```
 
 ## Usage
-To use WebQueryBot, follow these steps:
+To use WebscrapingAI, follow these steps:
 
 1. **Ensure that you have installed the required dependencies** and added the OpenAI API key to the `.env` file.
 
