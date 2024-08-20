@@ -12,7 +12,6 @@ from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
 
 
-
 # Todo : scrape with selenium later 
 def get_website_text(url):
     try:
