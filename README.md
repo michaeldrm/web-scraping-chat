@@ -19,7 +19,43 @@ The dataset for this project consists of text data extracted from web pages base
 - **Conversational Model**: OpenAI GPT-3.5-turbo
 
 ## Installation
-To set up the project, install the required packages using pip. First, create a `requirements.txt` file with the necessary dependencies, then run:
+To set up and use WebQueryBot, follow these steps:
 
-```bash
-pip install -r requirements.txt
+1. **Clone the repository** to your local machine:
+
+    ```bash
+    git clone <repository-url>
+    cd <repository-directory>
+    ```
+
+2. **Install the required dependencies** by running:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **Obtain an API key** from OpenAI and add it to the `.env` file in the project directory. Your `.env` file should contain:
+
+    ```plaintext
+    OPENAI_API_KEY=your_secret_api_key
+    ```
+
+## Usage
+To use WebQueryBot, follow these steps:
+
+1. **Ensure that you have installed the required dependencies** and added the OpenAI API key to the `.env` file.
+
+2. **Run the application** using the Streamlit CLI. Execute the following command:
+
+    ```bash
+    streamlit run app.py
+    ```
+
+3. The application will launch in your default web browser, displaying the user interface.
+
+4. **Input a URL** in the sidebar to scrape content from the desired web page.
+
+5. **Ask questions** about the content of the scraped web pages using the chat interface.
+
+## Author
+Michael Diop
