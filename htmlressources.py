@@ -53,7 +53,7 @@ css = '''
 bot_template = '''
 <div class="chat-message bot">
     <div class="avatar">
-        <img src="https://i.ibb.co/cN0nmSj/Screenshot-2023-05-28-at-02-37-21.png" alt="Bot Avatar">
+        <img src="https://cdn.pixabay.com/photo/2021/01/04/10/37/icon-5887113_1280.png" alt="Bot Avatar">
     </div>
     <div class="message">{{MSG}}</div>
 </div>
@@ -62,7 +62,7 @@ bot_template = '''
 user_template = '''
 <div class="chat-message user">
     <div class="avatar">
-        <img src="https://i.ibb.co/rdZC7LZ/Photo-logo-1.png" alt="User Avatar">
+        <img src="https://iconape.com/wp-content/files/mb/10833/png/iconfinder_1_avatar_2754574.png" alt="User Avatar">
     </div>    
     <div class="message">{{MSG}}</div>
 </div>
